@@ -4,7 +4,7 @@ function play_se()
     var voice = new Audio('voice.mp3');
     warning.play();
     voice.play();
-    navigator.vibrate([200,100,200,100,200,100,200]);
+    navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
 }
 
 $(function(){
